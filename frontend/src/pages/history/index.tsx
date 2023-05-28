@@ -38,7 +38,9 @@ export const Page = () => {
     return (
       <MainLayout>
         <Container my="md" className="min-w-full">
-          <Grid className="w-full h-full">
+          <Grid className="w-full h-full ">
+            <div>{child}</div>
+            <div>{child}</div>
             <div>{child}</div>
             <div>{child}</div>
             <div>{child}</div>

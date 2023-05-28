@@ -8,7 +8,7 @@ const child = (
   <Skeleton
     width={'20rem'}
     height={'15rem'}
-    className="mx-5"
+    className="m-5"
     radius="md"
     animate={true}
   />
@@ -25,8 +25,12 @@ export const Dishes = () => {
   }, []);
   if (loading) {
     return (
-      <Container my="md" className="w-full max-w-[80%]">
+      <Container my="md" className="w-full max-w-[80%] overflow-hidden">
         <Grid className="w-full h-full">
+          <div>{child}</div>
+          <div>{child}</div>
+          <div>{child}</div>
+          <div>{child}</div>
           <div>{child}</div>
           <div>{child}</div>
           <div>{child}</div>
